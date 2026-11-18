@@ -1,0 +1,17 @@
+[package]
+name = "portman-menubar"
+version = "0.1.0"
+edition = "2024"
+description = "Menu bar app for switching portman slots between projects"
+license = "MIT"
+
+[workspace]
+
+[dependencies]
+libc = "0.2.191"
+open = "5.4.5"
+rfd = "0.18.0"
+serde = { version = "1.0.229", features = ["derive"] }
+tao = "0.37.2"
+toml = "1.2.1"
+tray-icon = "0.26.1"
